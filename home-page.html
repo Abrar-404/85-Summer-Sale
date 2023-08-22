@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Summer Sale</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="w-[425px] md:w-[768px] lg:w-[1400px] items-center justify-center mx-auto">
+    <!-- banner section -->
+    <div class="w-full flex items-center py-20 lg:h-[80vh] md:h-[90vh] h-[80vh] mx-auto bg-[#F9F6E2]">
+
+      <!-- banner texts -->
+      <div class="text-center mx-auto">
+        <h3 class="text-[#111111] pb-5 font-medium lg:text-2xl md:text-xl text-base">---SALE FEVER---</h3>
+
+        <h3 class="text-[#111111] pb-5 font-bold lg:text-3xl md:text-2xl text-xl">Purchase TK 200 or <br> above & get
+          <span class="text-[#E527B2]">20% off</span>
+        </h3>
+
+        <div class="flex items-center mx-auto justify-center gap-5">
+          <h3 class="text-black font-semibold text-base">Use Promo Code</h3>
+
+          <h1 id="btn-sell-200" class=" bg-[#E527B2] py-3 px-4 rounded-lg text-[#FFFFFF] font-semibold">SELL200</h1>
+        </div>
+      </div>
+
+      <!-- banner image -->
+      <div class="mx-auto">
+        <img class="lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px] w-[200px] h-[200px]"
+          src="./85-summer-sale-main/images/Summer 1.png" alt="">
+      </div>
+    </div>
+
+    <!-- cards and calculate section -->
+    <div class="mx-auto flex mt-10 flex-1 flex-col text-center md:flex-col lg:flex-row justify-evenly">
+
+      <div class="mx-auto">
+        <div class="">
+          <h1 class="lg:text-3xl font-bold pb-5 mx-auto lg:text-left md:text-center text-center md:text-2xl text-base">
+            Kitchenware
+          </h1>
+        </div>
+        <!-- cards section -->
+        <div class="grid mx-auto gap-3 grid-cols-1 md:grid-cols-1 lg:grid-cols-3 mt-5">
+          <!-- card 1 -->
+          <div id="card-1">
+            <div class="card bg-base-100 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="./85-summer-sale-main/images/prod1.png" alt="prod-1" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <div class="card-actions">
+                  <div class="rating rating-xl rating-half">
+                    <input type="radio" name="rating-10" class="rating-hidden" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" checked />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  </div>
+                </div>
+
+                <p><span class="text-2xl font-bold" id="k-accessories">1. K. Accessories</span></p>
+
+                <p class="text-base"> <span id="card-1-tk">39.00</span> TK</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 2 -->
+          <div id="card-2">
+            <div class="card bg-base-100 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="./85-summer-sale-main/images/prod2.png" alt="prod-2" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <div class="card-actions">
+                  <div class="rating rating-xl rating-half">
+                    <input type="radio" name="rating-10" class="rating-hidden" checked />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  </div>
+                </div>
+
+                <p><span id="cook2" class="text-2xl font-bold">2. K. Accessories</span></p>
+
+                <p class="text-base"> <span id="card-2-tk">25.00</span> TK</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 3 -->
+          <div id="card-3">
+            <div class="card bg-base-100 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="./85-summer-sale-main/images/prod3.png" alt="prod-3" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <div class="card-actions">
+                  <div class="rating rating-xl rating-half">
+                    <input type="radio" name="rating-10" class="rating-hidden" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" checked />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  </div>
+                </div>
+
+                <p class="text-2xl font-bold"> <span id="home-cooker">3. Home Cooker</span></p>
+
+                <p class="text-base"> <span id="card-3-tk">49.00</span> TK</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div>
+          <div class="">
+            <h1
+              class="lg:text-3xl mx-auto lg:text-left md:text-center text-center md:text-2xl font-bold pb-5 mt-6 text-base">
+              Sportswear
+            </h1>
+          </div>
+
+          <div class="grid mx-auto gap-3 grid-cols-1 md:grid-cols-1 lg:grid-cols-3 mt-5">
+
+            <!-- card 4 -->
+            <div id="card-4">
+              <div class="card bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="./85-summer-sale-main/images/prod4.png" alt="prod-4" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <div class="card-actions">
+                    <div class="rating rating-xl rating-half">
+                      <input type="radio" name="rating-10" class="rating-hidden" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" checked />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                    </div>
+                  </div>
+
+                  <p class="text-2xl font-bold"><span id="sports-cap">4. Sports Back Cap</span></p>
+
+                  <p class="text-base"> <span id="card-4-tk">49.00</span> TK</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 5 -->
+            <div id="card-5">
+              <div class="card bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="./85-summer-sale-main/images/prod5.png" alt="prod-5" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <div class="card-actions">
+                    <div class="rating rating-xl rating-half">
+                      <input type="radio" name="rating-10" class="rating-hidden" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" checked />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                    </div>
+                  </div>
+
+                  <p class="text-2xl font-bold"> <span id="jersey-set">5. Full Jersey Set</span></p>
+
+                  <p class="text-base"> <span id="card-5-tk">69.00</span> TK</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 6 -->
+            <div id="card-6">
+              <div class="card bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="./85-summer-sale-main/images/prod6.png" alt="prod-6" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <div class="card-actions">
+                    <div class="rating rating-xl rating-half">
+                      <input type="radio" name="rating-10" class="rating-hidden" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" checked />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                      <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                    </div>
+                  </div>
+
+                  <p class="text-2xl font-bold"> <span id="sports-cates">6. Sports cates</span></p>
+
+                  <p id="shoe-field" class="text-base"> <span id="card-6-tk">159.00</span> TK</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- calculation section -->
+      <div class="mx-auto text-left">
+
+        <!-- have coupon? -->
+        <div class="card w-96 mb-5 mt-5 bg-base-100 shadow-xl">
+          <div class="card-body">
+            <h2 class="card-title font-bold">Have Coupon?</h2>
+            <div class="relative">
+              <input id="coupon-input" type="text" placeholder="Coupon code"
+                class="input input-bordered input-secondary w-full max-w-xs" />
+
+              <button id="coupon-btn" disabled class=" absolute ml-[-23%] btn btn-active btn-secondary">Apply</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- main calculation -->
+        <div class="card w-96 bg-base-100 shadow-xl">
+
+          <!-- card texts total -->
+          <!-- <div id="items-selector" class="">
+
+          </div> -->
+
+          <div id="select">
+
+          </div>
+
+          <div id="selec2">
+
+          </div>
+
+          <hr>
+
+          <div class="card-body relative items-center text-center">
+            <div class="flex items-center gap-3">
+              <!-- total price -->
+
+              <h2 class="card-title">Total Price:</h2>
+              <p class="text-slate-400 text-lg"><span id="total-price-tk">00</span> tk </p>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <!-- discount -->
+
+              <h2 class="card-title">Discount:</h2>
+              <p class="text-slate-400 text-lg"><span id="discount-tk">00</span> tk </p>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <!-- total -->
+
+              <h2 class="card-title">Total:</h2>
+              <p class="text-slate-400 text-lg"><span id="total-tk">00</span> tk </p>
+            </div>
+
+            <!-- Modal -->
+            <div class="card-actions absolute mt-[28%]">
+              <button id="purchase-btn" class="btn btn-secondary" onclick="my_modal_5.showModal()" disabled>Make
+                Purchase</button>
+              <dialog id="my_modal_5" class="modal modal-middle lg:modal-middle modal-middle md:modal-middle">
+                <form method="dialog" class="modal-box">
+                  <div class="flex justify-center items-center">
+                    <img class="" src="./85-summer-sale-main/images/congo.png" alt="">
+                  </div>
+                  <p class="py-4 font-bold text-3xl">Congratulations</p>
+                  <p class="py-4 text-sm text-slate-500 font-semibold">Your Purchase the product
+                  </p>
+                  <div class="modal-action">
+                    <div class="flex gap-5 lg:px-32 md:px-32 px-20 items-center mx-auto justify-center">
+                      <button id="home-btn" class="btn btn-secondary text-white font-bold">Go home</button>
+                    </div>
+                  </div>
+                </form>
+              </dialog>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
